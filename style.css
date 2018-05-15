@@ -149,13 +149,22 @@ button{
     }
     button{
       margin: 10px;
+      width: 80%;
     }
     #main img{
         width: 80%;
     }
     #main{
-      height: 300px;
-      padding-top: 100px;
+      height: 250px;
+      padding-top: 0px;
+      text-align: center;
+    }
+    .left, .right{
+      padding-top: 60px;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
       text-align: center;
     }
 
