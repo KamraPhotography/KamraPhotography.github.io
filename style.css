@@ -1,0 +1,162 @@
+html{
+  height: 100%;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  height: 100%;
+  margin: 0px;
+  background: url("images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+header{
+  background-color: rgba(195, 209, 226, 0.69);
+  height: 100px;
+  //border-bottom: 3px dashed rgb(154, 112, 255);
+  padding: 10px;
+}
+
+.logo{
+  margin-left: 20px;
+  float: left;
+  width: 30%;
+}
+.logo img{
+  width: 250px;
+  margin-top: 5px;
+}
+#selected{
+  font-weight: bold;
+}
+nav{
+padding: 30px;
+padding-bottom: 0px;
+padding-left: 0px;
+  height: 70%;
+  width: 60%;
+  margin: 0px;
+  float: right;
+}
+ul{
+  padding-left: 0px;
+  margin: 0px;
+  height: 100%;
+  float: right;
+}
+li{
+  height: 100%;
+  display: inline;
+  margin: 20px;
+}
+
+li:hover{
+  color: rgb(154, 112, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main{
+  height: 400px;
+  padding-top: 100px;
+  text-align: center;
+}
+#main img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#social img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  background-color: rgba(137, 61, 223, 0.86);
+  margin-top: 80px;
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.b1:hover{
+  background-color: rgb(154, 112, 255);
+  color: white;
+}
+
+.left,.right{
+  margin: 0px;
+  width: 50%;
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+      padding-bottom: 20px;
+    }
+    nav{
+      padding: 0px;
+      float:none;
+      width: 100%;
+      margin: 0px;
+      text-align: center;
+
+    }
+    .logo{
+      float: none;
+      width: 100%;
+      margin: 0px;
+    }
+    .logo img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+    }
+    ul{
+      width: 100%;
+      text-align: center;
+      margin: 0px;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+    li{
+      margin-left: 5px;
+      margin-right:5px;
+    }
+    button{
+      margin: 10px;
+    }
+    #main img{
+        width: 80%;
+    }
+    #main{
+      height: 300px;
+      padding-top: 100px;
+      text-align: center;
+    }
+
+}
